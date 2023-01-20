@@ -1,3 +1,35 @@
-li {
+body {
+    background-color: #B8F1B0;
+}
+
+
+nav {
+
+    background-color: #01FFAB;
+    max-width: auto;
+}
+
+nav li {
+    display: inline;
     list-style: none;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color:#400172;
+    transition: all 150ms ease-in-out;
+    text-decoration: none;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+nav a:hover,
+nav li.active a {
+    color: #2F034A;
 }
